@@ -1,0 +1,112 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*Background styling*/
+.hero {
+  background: url('../images/pexels-photo-1022928.jpeg') no-repeat center
+    center/cover;
+  height: 65vh;
+  position: relative;
+  color: #fff;
+}
+
+/*Adding overlay for background*/
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(249, 250, 251, 0.8);
+}
+
+/*Styling about page headings*/
+.name {
+  font-size: 40px;
+  color: rgb(39, 28, 28);
+  padding-top: 200px;
+}
+
+/*Adding color for span classes*/
+.red {
+  color: red;
+}
+
+.work {
+  font-size: 60px;
+  color: rgb(19, 15, 15);
+}
+
+.about {
+  font-size: 22px;
+  color: white;
+}
+
+.about i:hover {
+  color: red;
+}
+
+/*Styles for footer*/
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: red;
+}
+
+.myself {
+  height: 110px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.about a {
+  color: white;
+}
+
+.skills {
+  padding-top: 80px;
+  padding-left: 100px;
+  border-bottom: solid 2px black;
+}
+
+.skills li {
+  list-style: none;
+}
+
+/*Date and time on bottom of the about page*/
+.today p {
+  font-size: 12px;
+}
+
+/*Adjusting viewheight and black line at the bottom of the section*/
+.labskills,
+.projects,
+.contact {
+  height: 83vh;
+  border-bottom: solid 2px black;
+}
+
+/*Contact form buttons*/
+form #submitbutton,
+#reset {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  padding: 5px;
+  margin-bottom: 100px;
+}
+
+#reset {
+  background-color: black;
+}
