@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="css/style.css" />
   <title>EK Portfolio</title>
 </head>
-<body>
+<body onscroll="myPageScroll()" onload="myProjects()" >
       <!--Navbar-->
       <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">My Portfolio</a>
@@ -63,7 +63,7 @@
           <div class="row ml-4">
             <div class="col-sm">
               <div class="card" style="width: 18rem;">
-                <img src="images/freeCodeProjekti.png" class="card-img-top" alt="...">
+                <img onmouseover="myFunction()" src="images/freeCodeProjekti.png" class="card-img-top" alt="Tribute page">
                 <div class="card-body">
                   <p class="card-text">One of the very first projects I've done: Tribute page challenge in freeCodeCamp.</p> 
                   <p>Pure HTML and CSS codeing.</p>
@@ -72,7 +72,7 @@
             </div>
             <div class="col-sm">
               <div class="card" style="width: 18rem;">
-                <img src="images/taitotaloProjekti.png" class="card-img-top" alt="...">
+                <img src="images/taitotaloProjekti.png" class="card-img-top" alt="Dog Park web page">
                 <div class="card-body">
                   <p class="card-text">Prototype of the website- project for my studies in Taitotalo. </p>
                   <p>HTML, CSS and Bootstrap and also loads of documentation.</p>
@@ -81,16 +81,22 @@
             </div>
             <div class="col-sm">
               <div class="card" style="width: 18rem;">
-                <img src="images/udemyProjekti.png" class="card-img-top" alt="...">
+                <img src="images/udemyProjekti.png" class="card-img-top" alt="Hangman game">
                 <div class="card-body">
                   <p class="card-text">Fun Udemy course with Brad Travesy.</p>
                   <p>Learning Javascript with Hangman game.</p>
                 </div>
               </div>
             </div>
+            <div>
+              <p id="first"></p>
+            </div>
           </div>
+            <p id="scroll"></p>
         </div>
       </section>
+
+  
 
 <footer class="container-md text-center pt-5">
   <div class="">
@@ -101,5 +107,6 @@
   </div>
    <p>Copyright &copy; 2020 -Elina Kaperi</p>
 </footer>
+<script src="js/style.js"></script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+// Gallery slideshow:
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -40,3 +41,17 @@ function Validate() {
   }
   return true;
 }
+
+// Function for JS events on Projects page
+function myFunction() {
+  document.getElementById("first").innerHTML = "Yes, that's my first project.";
+}
+
+function myProjects() {
+  alert("Projects page is loaded");
+}
+
+function myPageScroll() {
+  document.getElementById("scroll").innerHTML = "More to come later.";
+}
+

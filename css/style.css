@@ -54,6 +54,16 @@ h2 {
   color: red;
 }
 
+.about a {
+  color: white;
+}
+
+.myself {
+  height: 110px;
+  width: 100px;
+  border-radius: 50%;
+}
+
 /*Styles for footer*/
 footer a {
   color: black;
@@ -63,16 +73,7 @@ footer a:hover {
   color: red;
 }
 
-.myself {
-  height: 110px;
-  width: 100px;
-  border-radius: 50%;
-}
-
-.about a {
-  color: white;
-}
-
+/*Skills page styling*/
 .skills {
   padding-top: 80px;
   padding-left: 100px;
@@ -90,9 +91,13 @@ footer a:hover {
 
 /*Adjusting viewheight and black line at the bottom of the section*/
 .labskills,
-.projects,
 .contact {
   height: 83vh;
+  border-bottom: solid 2px black;
+}
+
+.projects {
+  height: 120vh;
   border-bottom: solid 2px black;
 }
 
@@ -109,4 +114,14 @@ form #submitbutton,
 
 #reset {
   background-color: black;
+}
+
+#scroll {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5em;
+}
+
+#first {
+  padding-left: 40px;
 }
