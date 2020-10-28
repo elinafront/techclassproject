@@ -109,7 +109,7 @@ form #submitbutton,
   border: none;
   border-radius: 10%;
   padding: 5px;
-  margin-bottom: 100px;
+  margin: 20px 10px 20px 0;
 }
 
 #reset {
@@ -124,4 +124,8 @@ form #submitbutton,
 
 #first {
   padding-left: 40px;
+}
+
+form {
+  padding: 20px;
 }
