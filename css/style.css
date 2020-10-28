@@ -129,3 +129,7 @@ form #submitbutton,
 form {
   padding: 20px;
 }
+
+form label {
+  padding-top: 10px;
+}
